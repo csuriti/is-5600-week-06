@@ -15,6 +15,7 @@ export default function Search({ handleSearch }) {
     e.preventDefault(); // This stops the form from submitting in the traditional way.
     handleSearch(search); // This calls the search function passed as a prop from the parent component.
   };
+
   return (
     <form class="pt4 pb4 pl2 black-80" onSubmit={handleSubmit}>
       <fieldset class="cf bn ma0 pa0">
